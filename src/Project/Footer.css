@@ -1,0 +1,15 @@
+*{ 
+     margin: 0px;
+    padding: 0px;
+}
+.bar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* background-color: gray; */
+    padding: 30px;
+    color: white;
+    background-size: cover;
+    background-image: url('Fruit-3.jpg');
+    background-attachment: fixed;
+
+}

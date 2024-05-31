@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 5px 5px;
+    flex-wrap: wrap;
+}
+.img2-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20px 20px;
+    flex-wrap: wrap;
+}
+.im{
+    /* background:url("Fruit-1.jpg");  */
+    background-size: cover; 
+   /* animation: rotate 20s infinite;  */
+ }
+ marquee{
+    background-color: lightgreen;
+    font-size: 2rem;
+    padding: 10px ;
+ }
+   @keyframes rotate {
+        0%{
+            background-image:url("Fruit-1.jpg")
+        }
+        25%{
+            background-image:url("Fruit-2.jpg")
+        }
+        50%{
+            background-image:url("Fruit-3.jpg")
+        }
+
+       75%{
+        background-image:url("Fruit-4.jpg")
+       }
+    }
+.container{
+}
